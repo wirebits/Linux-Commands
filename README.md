@@ -46,3 +46,11 @@ gcc c_file.c -o executable_file_name
 ```
 g++ c_file.cpp -o executable_file_name
 ```
+## Start Bluetooth
+```
+sudo systemctl start bluetooth.service
+```
+## Enable Bluetooth
+```
+sudo systemctl enable bluetooth.service
+```
